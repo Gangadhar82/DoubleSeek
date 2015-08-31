@@ -20,6 +20,8 @@ class CompositeListener implements OnSeekBarChangeListener {
 
     public void registerListener(OnSeekBarChangeListener listener) {
         registeredListeners.add(listener);
+        Log.d("bhaskar", "the boss");
+
     }
 
     @Override
