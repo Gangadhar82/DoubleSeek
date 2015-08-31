@@ -16,7 +16,7 @@ class CompositeListener implements OnSeekBarChangeListener {
     private List<OnSeekBarChangeListener> registeredListeners = new ArrayList<OnSeekBarChangeListener>();
 
     public CompositeListener() {}
-    Log.d("bhaskar", "the boss");
+
 
     public void registerListener(OnSeekBarChangeListener listener) {
         registeredListeners.add(listener);
