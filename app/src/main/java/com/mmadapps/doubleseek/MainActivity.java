@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         rangeSeekBar.setRangeValues(15, 90);
         rangeSeekBar.setSelectedMinValue(20);
         rangeSeekBar.setSelectedMaxValue(88);
-        Log.d("bhaskar", "the boss");
+
 
         // Add to layout
         LinearLayout layout = (LinearLayout) findViewById(R.id.seekbar_placeholder);
